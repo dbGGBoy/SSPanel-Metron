@@ -154,6 +154,7 @@ $_MT['index_sub'] = [
     'quantumult',
     'quantumultx',
     'shadowrocket',
+    'sing-box',
     'stash'
 ];
 # 共享账号
