@@ -15,6 +15,9 @@
             if (client == 'quantumult_v2') {
                 index.oneclickImport('quantumult_v2','{$subInfo["quantumult_v2"]}')
             };
+            if (client == 'singbox') {
+                window.location.href = 'sing-box://import-remote-profile?url=' + encodeURIComponent('{$subInfo["singbox"]}') + "#" + '{$config["appName"]}';
+            };
             if (client == 'stash') {
                 location.href = "stash://install-config?url=" + encodeURIComponent('{$subInfo["stash"]}') + "&name=" + '{$config["appName"]}'
             };
